@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  
+}
+#gola{
+    position: absolute;
+    height: 100px;
+    
+    width: 100px;
+    border-radius: 50%;
+    left: 30px;
+    
+    border: 5px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+ 
+    
+}
+#main>button{
+    height: 50px;
+    width: 100px;
+   margin-left: 83%;
+   margin-top: 150px;
+    border: 3px solid rgb(0, 0, 0) ;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+#curs{
+    margin-left: 80%;
+    margin-top: -120px;
+
+    justify-content: space-between;
+    gap: 100px;
+
+    
+}
+#curs>button{
+    background-color: rgb(4, 74, 235);
+    color: aliceblue;
+    padding: 10px 20px;
+
+    
+
+}
